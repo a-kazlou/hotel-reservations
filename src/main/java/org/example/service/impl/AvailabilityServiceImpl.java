@@ -43,7 +43,7 @@ public class AvailabilityServiceImpl implements AvailabilityService {
 
     @Override
     public int checkAvailability(String hotelId, LocalDate startDate, LocalDate endDate, String roomType) {
-        ValidationUtils.validateHotelId(hotelId);//
+        ValidationUtils.validateHotelId(hotelId);
         ValidationUtils.validateDateRange(startDate, endDate);
         ValidationUtils.validateRoomType(roomType);
         return IntStream.range(0, (int) ChronoUnit.DAYS.between(startDate, endDate))
@@ -54,8 +54,6 @@ public class AvailabilityServiceImpl implements AvailabilityService {
 
     @Override
     public Map<String, Integer> searchAvailability(String hotelId, String roomType, int daysAhead) {
-        ValidationUtils.validateHotelId(hotelId);
-        ValidationUtils.validateRoomType(roomType);
         ValidationUtils.validateDaysAhead(daysAhead);
         LocalDate today = LocalDate.now();
         LocalDate endDate = today.plusDays(daysAhead);
@@ -81,9 +79,4 @@ public class AvailabilityServiceImpl implements AvailabilityService {
                end.format(DateTimeFormatter.BASIC_ISO_DATE);
     }
 
-    private void validateParameters(String hotelId, LocalDate date, String roomType) {
-        ValidationUtils.validateHotelId(hotelId);
-        ValidationUtils.validateDate(date);
-        ValidationUtils.validateRoomType(roomType);
-    }
 }

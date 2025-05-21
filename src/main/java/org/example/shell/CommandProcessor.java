@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 @Service
@@ -15,6 +17,7 @@ import java.util.stream.Collectors;
 public class CommandProcessor {
 
     private static final String UNKNOWN_COMMAND_EXCEPTION = "Unknown command. Available commands: ";
+    private static final String INVALID_FORMAT_EXCEPTION = "Invalid command format. Expected: Command (args)";
     private final Map<String, Command> commands = new HashMap<>();
 
     @Autowired
@@ -27,15 +30,34 @@ public class CommandProcessor {
     }
     
     public String process(String input) {
-        String[] parts = input.split("\\s+", 2);
-        String commandName = parts[0];
-        String[] args = parts.length > 1 ? parts[1].split("\\s+") : new String[0];
+        ParsedCommand parsedCommand = parseInput(input);
         
-        Command command = commands.get(commandName);
+        Command command = commands.get(parsedCommand.commandName);
         if (command == null) {
             return UNKNOWN_COMMAND_EXCEPTION + commands.keySet();
         }
         
-        return command.execute(args);
+        return command.execute(parsedCommand.arguments());
     }
+
+    private ParsedCommand parseInput(String input) {
+        if (input.isEmpty()) {
+            throw new IllegalArgumentException("Empty input");
+        }
+
+        Pattern pattern = Pattern.compile("^(\\w+)\\s*\\(([^)]*)\\)$");
+        Matcher matcher = pattern.matcher(input);
+
+        if (!matcher.matches()) {
+            throw new IllegalArgumentException(INVALID_FORMAT_EXCEPTION);
+        }
+
+        String commandName = matcher.group(1);
+        String argsString = matcher.group(2).trim();
+        String[] arguments = argsString.isEmpty() ? new String[0] : argsString.split("\\s*,\\s*");
+
+        return new ParsedCommand(commandName, arguments);
+    }
+
+    private record ParsedCommand(String commandName, String[] arguments) {}
 }

@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.service.AvailabilityService;
-import org.example.shell.AvailabilityCommand;
 import org.example.shell.CommandProcessor;
-import org.example.shell.SearchCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,8 +11,6 @@ import java.util.Scanner;
 @SpringBootApplication
 public class HotelReservationApplication implements CommandLineRunner {
 
-    @Autowired
-    private AvailabilityService availabilityService;
     @Autowired
     private CommandProcessor commandProcessor;
 

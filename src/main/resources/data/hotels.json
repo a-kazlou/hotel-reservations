@@ -1,0 +1,1825 @@
+[
+  {
+    "id": "H1",
+    "name": "Grand Plaza Hotel",
+    "roomTypes": [
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Safe",
+          "Coffee Maker",
+          "AC",
+          "Fridge"
+        ],
+        "features": [
+          "Ocean View",
+          "Non-smoking"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "002",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "003",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "004",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "005",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "006",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "007",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H2",
+    "name": "Ocean View Hotel",
+    "roomTypes": [
+      {
+        "code": "SUITE",
+        "description": "Suite",
+        "amenities": [
+          "AC",
+          "WiFi"
+        ],
+        "features": [
+          "Garden View",
+          "Mountain View",
+          "Balcony",
+          "City View"
+        ]
+      },
+      {
+        "code": "STD",
+        "description": "Standard Room",
+        "amenities": [
+          "Fridge",
+          "WiFi",
+          "Minibar"
+        ],
+        "features": [
+          "Mountain View",
+          "Non-smoking",
+          "Ocean View",
+          "Garden View",
+          "City View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "007",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "008",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "009",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "010",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "011",
+        "roomType": "STD"
+      }
+    ]
+  },
+  {
+    "id": "H3",
+    "name": "Mountain Lodge Hotel",
+    "roomTypes": [
+      {
+        "code": "SUITE",
+        "description": "Suite",
+        "amenities": [
+          "AC",
+          "WiFi",
+          "Safe",
+          "Fridge",
+          "Minibar",
+          "Coffee Maker",
+          "TV"
+        ],
+        "features": [
+          "Balcony",
+          "Garden View"
+        ]
+      },
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "WiFi",
+          "Coffee Maker",
+          "TV",
+          "Safe",
+          "AC"
+        ],
+        "features": [
+          "Mountain View",
+          "Garden View"
+        ]
+      },
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "AC",
+          "Fridge",
+          "Safe",
+          "TV",
+          "WiFi",
+          "Minibar",
+          "Coffee Maker"
+        ],
+        "features": [
+          "City View",
+          "Non-smoking",
+          "Ocean View",
+          "Garden View",
+          "Mountain View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "008",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "014",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "015",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H4",
+    "name": "Royal Gardens Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "AC",
+          "TV",
+          "Minibar"
+        ],
+        "features": [
+          "City View"
+        ]
+      },
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "TV",
+          "WiFi",
+          "Minibar",
+          "AC",
+          "Coffee Maker",
+          "Safe",
+          "Fridge"
+        ],
+        "features": [
+          "Ocean View",
+          "City View",
+          "Mountain View",
+          "Non-smoking",
+          "Balcony"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "008",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H5",
+    "name": "Sunset Resort Hotel",
+    "roomTypes": [
+      {
+        "code": "STD",
+        "description": "Standard Room",
+        "amenities": [
+          "Coffee Maker",
+          "TV",
+          "AC",
+          "Safe",
+          "Fridge",
+          "WiFi"
+        ],
+        "features": [
+          "Ocean View",
+          "Balcony",
+          "City View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "002",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "003",
+        "roomType": "STD"
+      }
+    ]
+  },
+  {
+    "id": "H6",
+    "name": "City Central Hotel",
+    "roomTypes": [
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Minibar",
+          "Fridge",
+          "WiFi",
+          "AC",
+          "Coffee Maker",
+          "TV",
+          "Safe"
+        ],
+        "features": [
+          "Mountain View",
+          "Balcony",
+          "Garden View",
+          "Non-smoking",
+          "Ocean View"
+        ]
+      },
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "AC",
+          "Fridge",
+          "Safe",
+          "TV"
+        ],
+        "features": [
+          "Mountain View",
+          "Balcony",
+          "Ocean View",
+          "Garden View",
+          "City View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "002",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "003",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "004",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "005",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "006",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "007",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "008",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "011",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "012",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "013",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "014",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "015",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "016",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "017",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "018",
+        "roomType": "SGL"
+      }
+    ]
+  },
+  {
+    "id": "H7",
+    "name": "Paradise Inn Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Coffee Maker",
+          "Safe",
+          "WiFi",
+          "Minibar"
+        ],
+        "features": [
+          "Garden View",
+          "Balcony",
+          "Non-smoking",
+          "Mountain View",
+          "City View",
+          "Ocean View"
+        ]
+      },
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Minibar",
+          "Safe",
+          "AC",
+          "WiFi"
+        ],
+        "features": [
+          "Garden View",
+          "Mountain View",
+          "City View",
+          "Non-smoking",
+          "Balcony",
+          "Ocean View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "008",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "009",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "014",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "015",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "016",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "017",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "018",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H8",
+    "name": "Alpine Retreat Hotel",
+    "roomTypes": [
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Coffee Maker",
+          "Fridge"
+        ],
+        "features": [
+          "Ocean View",
+          "City View",
+          "Non-smoking"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "002",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "003",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "004",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H9",
+    "name": "Harbor Lights Hotel",
+    "roomTypes": [
+      {
+        "code": "STD",
+        "description": "Standard Room",
+        "amenities": [
+          "Coffee Maker",
+          "AC",
+          "Fridge"
+        ],
+        "features": [
+          "Mountain View",
+          "City View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "002",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "003",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "004",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "005",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "006",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "007",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "008",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "009",
+        "roomType": "STD"
+      }
+    ]
+  },
+  {
+    "id": "H10",
+    "name": "Golden Sands Hotel",
+    "roomTypes": [
+      {
+        "code": "STD",
+        "description": "Standard Room",
+        "amenities": [
+          "WiFi",
+          "Safe",
+          "TV"
+        ],
+        "features": [
+          "Balcony",
+          "Non-smoking",
+          "Garden View"
+        ]
+      },
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Fridge",
+          "Safe",
+          "TV",
+          "Minibar",
+          "WiFi"
+        ],
+        "features": [
+          "Mountain View",
+          "Non-smoking",
+          "Ocean View",
+          "City View",
+          "Balcony"
+        ]
+      },
+      {
+        "code": "SUITE",
+        "description": "Suite",
+        "amenities": [
+          "Safe",
+          "WiFi",
+          "Fridge",
+          "TV"
+        ],
+        "features": [
+          "Garden View",
+          "City View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "002",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "003",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "004",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "005",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "006",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "007",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "008",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "009",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "010",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "011",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "012",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "013",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "014",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "015",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "016",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "017",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "018",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "019",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "020",
+        "roomType": "SUITE"
+      }
+    ]
+  },
+  {
+    "id": "H11",
+    "name": "Emerald Valley Hotel",
+    "roomTypes": [
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": [
+          "AC",
+          "WiFi",
+          "Fridge",
+          "Minibar"
+        ],
+        "features": [
+          "Ocean View",
+          "Mountain View"
+        ]
+      },
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Coffee Maker",
+          "Fridge"
+        ],
+        "features": [
+          "Ocean View",
+          "Non-smoking",
+          "Garden View",
+          "Balcony",
+          "Mountain View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "007",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "008",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H12",
+    "name": "Starlight Suites Hotel",
+    "roomTypes": [
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Minibar",
+          "Safe"
+        ],
+        "features": [
+          "Ocean View",
+          "City View",
+          "Garden View",
+          "Mountain View",
+          "Non-smoking"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "002",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "003",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "004",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "005",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "006",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "007",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "008",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H13",
+    "name": "Pine Forest Hotel",
+    "roomTypes": [
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Fridge",
+          "TV",
+          "AC",
+          "Minibar",
+          "WiFi",
+          "Coffee Maker"
+        ],
+        "features": [
+          "Non-smoking",
+          "Balcony"
+        ]
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": [
+          "Minibar",
+          "WiFi",
+          "Coffee Maker",
+          "Safe",
+          "Fridge",
+          "AC"
+        ],
+        "features": [
+          "Non-smoking",
+          "Balcony",
+          "City View",
+          "Mountain View",
+          "Ocean View"
+        ]
+      },
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Minibar",
+          "WiFi",
+          "Safe",
+          "Coffee Maker"
+        ],
+        "features": [
+          "Balcony",
+          "Mountain View",
+          "Non-smoking"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "002",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "003",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "004",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "005",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "006",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "007",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "008",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "014",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "015",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "016",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "017",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "018",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "019",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "020",
+        "roomType": "SGL"
+      }
+    ]
+  },
+  {
+    "id": "H14",
+    "name": "Riverside Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Safe",
+          "Coffee Maker",
+          "WiFi",
+          "Fridge",
+          "Minibar",
+          "AC"
+        ],
+        "features": [
+          "Garden View",
+          "Mountain View",
+          "Balcony",
+          "Ocean View",
+          "Non-smoking",
+          "City View"
+        ]
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": [
+          "Coffee Maker",
+          "TV",
+          "WiFi"
+        ],
+        "features": [
+          "Mountain View",
+          "Ocean View",
+          "Garden View"
+        ]
+      },
+      {
+        "code": "STD",
+        "description": "Standard Room",
+        "amenities": [
+          "Minibar",
+          "AC",
+          "Safe",
+          "TV",
+          "WiFi"
+        ],
+        "features": [
+          "Garden View",
+          "Mountain View",
+          "City View",
+          "Non-smoking",
+          "Ocean View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "008",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "009",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "010",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "014",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "015",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "016",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "017",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "018",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "019",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "020",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "021",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "022",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "023",
+        "roomType": "STD"
+      }
+    ]
+  },
+  {
+    "id": "H15",
+    "name": "The Grand Hotel",
+    "roomTypes": [
+      {
+        "code": "SUITE",
+        "description": "Suite",
+        "amenities": [
+          "Safe",
+          "Coffee Maker",
+          "WiFi"
+        ],
+        "features": [
+          "Garden View",
+          "Non-smoking"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SUITE"
+      }
+    ]
+  },
+  {
+    "id": "H16",
+    "name": "Platinum Towers Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Minibar",
+          "Coffee Maker"
+        ],
+        "features": [
+          "Balcony"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      }
+    ]
+  },
+  {
+    "id": "H17",
+    "name": "Seaside Villa Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Fridge",
+          "Safe",
+          "AC"
+        ],
+        "features": [
+          "Balcony"
+        ]
+      },
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": [
+          "Safe",
+          "WiFi",
+          "AC"
+        ],
+        "features": [
+          "Mountain View",
+          "Non-smoking",
+          "Garden View",
+          "City View",
+          "Balcony"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "008",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "009",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "010",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DBL"
+      }
+    ]
+  },
+  {
+    "id": "H18",
+    "name": "Northern Lights Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Safe",
+          "Minibar",
+          "WiFi",
+          "TV",
+          "AC",
+          "Fridge",
+          "Coffee Maker"
+        ],
+        "features": [
+          "City View",
+          "Mountain View"
+        ]
+      },
+      {
+        "code": "STD",
+        "description": "Standard Room",
+        "amenities": [
+          "Fridge",
+          "Minibar"
+        ],
+        "features": [
+          "Balcony"
+        ]
+      },
+      {
+        "code": "SUITE",
+        "description": "Suite",
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Safe",
+          "Fridge",
+          "Minibar",
+          "TV",
+          "Coffee Maker"
+        ],
+        "features": [
+          "Non-smoking",
+          "City View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "008",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "009",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "010",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "011",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "012",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "013",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "014",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "015",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "016",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "017",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "018",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "019",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "020",
+        "roomType": "SUITE"
+      },
+      {
+        "roomId": "021",
+        "roomType": "SUITE"
+      }
+    ]
+  },
+  {
+    "id": "H19",
+    "name": "Desert Oasis Hotel",
+    "roomTypes": [
+      {
+        "code": "SGL",
+        "description": "Single Room",
+        "amenities": [
+          "Minibar",
+          "AC",
+          "Coffee Maker",
+          "Safe"
+        ],
+        "features": [
+          "Garden View"
+        ]
+      },
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Fridge",
+          "Coffee Maker",
+          "TV",
+          "Safe",
+          "Minibar"
+        ],
+        "features": [
+          "Mountain View",
+          "Ocean View"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "SGL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "008",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "014",
+        "roomType": "DLX"
+      }
+    ]
+  },
+  {
+    "id": "H20",
+    "name": "Metropolitan Hotel",
+    "roomTypes": [
+      {
+        "code": "DBL",
+        "description": "Double Room",
+        "amenities": [
+          "Coffee Maker",
+          "Safe",
+          "AC",
+          "Minibar",
+          "Fridge",
+          "WiFi",
+          "TV"
+        ],
+        "features": [
+          "Garden View"
+        ]
+      },
+      {
+        "code": "DLX",
+        "description": "Deluxe Room",
+        "amenities": [
+          "Fridge",
+          "Safe",
+          "WiFi",
+          "Coffee Maker",
+          "Minibar",
+          "AC"
+        ],
+        "features": [
+          "Garden View"
+        ]
+      },
+      {
+        "code": "STD",
+        "description": "Standard Room",
+        "amenities": [
+          "Coffee Maker",
+          "Fridge",
+          "Safe"
+        ],
+        "features": [
+          "Garden View",
+          "Mountain View",
+          "Non-smoking",
+          "Balcony"
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "roomId": "001",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "002",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "003",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "004",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "005",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "006",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "007",
+        "roomType": "DBL"
+      },
+      {
+        "roomId": "008",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "009",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "010",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "011",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "012",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "013",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "014",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "015",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "016",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "017",
+        "roomType": "DLX"
+      },
+      {
+        "roomId": "018",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "019",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "020",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "021",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "022",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "023",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "024",
+        "roomType": "STD"
+      },
+      {
+        "roomId": "025",
+        "roomType": "STD"
+      }
+    ]
+  }
+]
