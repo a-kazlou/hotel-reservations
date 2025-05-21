@@ -1,5 +1,6 @@
 package org.example.repository.impl;
 
+import lombok.RequiredArgsConstructor;
 import org.example.exception.DataLoadingException;
 import org.example.exception.RepositoryException;
 import org.example.model.entity.Booking;
@@ -12,15 +13,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Repository
+@RequiredArgsConstructor
 public class BookingRepositoryImpl implements BookingRepository {
 
     private static final String FETCH_SPECIFIC_BOOKING_EXCEPTION = "Failed to fetch bookings by hotel and date range";
     private static final String FETCH_BOOKING_EXCEPTION = "Failed to fetch all bookings";
     private final DataProvider<Booking> bookingDataProvider;
-
-    public BookingRepositoryImpl(DataProvider<Booking> bookingDataProvider) {
-        this.bookingDataProvider = bookingDataProvider;
-    }
 
     @Override
     public List<Booking> findByHotelAndDateRange(String hotelId,

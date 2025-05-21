@@ -1,10 +1,8 @@
 package org.example.repository.dataprovider;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import jakarta.annotation.PostConstruct;
 import org.example.exception.DataLoadingException;
 import org.example.repository.DataProvider;
-import org.springframework.stereotype.Component;
 
 import java.io.InputStream;
 import java.util.ArrayList;

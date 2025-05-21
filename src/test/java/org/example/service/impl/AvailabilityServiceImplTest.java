@@ -5,9 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.example.exception.HotelNotFoundException;
@@ -27,7 +25,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 @ExtendWith(MockitoExtension.class)
 class AvailabilityServiceImplTest {
 
-    private static int testYear = LocalDate.now().getYear() + 1;
+    private static LocalDate testDate = LocalDate.now().plusYears(1);
+    private static int testYear = testDate.getYear();
     @Mock
     private HotelRepository hotelRepository;
 
@@ -38,8 +37,6 @@ class AvailabilityServiceImplTest {
     private AvailabilityServiceImpl availabilityService;
 
     private Hotel testHotel;
-    private List<Room> testRooms;
-    private List<Booking> testBookings;
 
     @Test
     void checkAvailability_shouldThrowWhenHotelNotFound() {
@@ -127,6 +124,54 @@ class AvailabilityServiceImplTest {
                 hotelId, startDate, endDate, roomType);
 
         assertEquals(expectedAvailable, actual);
+    }
+
+    @ParameterizedTest
+    @MethodSource("consecutiveRangeProvider")
+    void checkAvailability_consecutiveRanges(
+            LocalDate startDate,
+            LocalDate endDate,
+            int expectedAvailable,
+            List<Booking> mockBookings
+    ) {
+        String hotelId = "H1";
+        String roomType = "SGL";
+
+        testHotel = new Hotel(hotelId, "Test Hotel", Collections.emptyList(),
+                List.of(
+                        new Room("101", "SGL"),
+                        new Room("102", "SGL"),
+                        new Room("103", "SGL")
+                ));
+
+        when(hotelRepository.findById(hotelId)).thenReturn(Optional.of(testHotel));
+        when(bookingRepository.findByHotelAndDateRange(
+                eq(hotelId), eq(startDate), eq(endDate), eq(roomType)))
+                .thenReturn(mockBookings);
+
+        int actual = availabilityService.checkAvailability(hotelId, startDate, endDate, roomType);
+
+        assertEquals(expectedAvailable, actual);
+    }
+
+    private static Stream<Arguments> consecutiveRangeProvider() {
+        LocalDate today = LocalDate.of(testYear, 5, 20);
+        LocalDate tomorrow = today.plusDays(1);
+        LocalDate dayAfter = today.plusDays(2);
+
+        return Stream.of(
+                Arguments.of(
+                        today, tomorrow, 2,
+                        List.of(new Booking("H1", today, tomorrow, "SGL", "Standard"))
+                ),
+                Arguments.of(
+                        tomorrow, dayAfter, 1,
+                        List.of(
+                                new Booking("H1", tomorrow, dayAfter, "SGL", "Standard"),
+                                new Booking("H1", today, dayAfter, "SGL", "Premium")
+                        )
+                )
+        );
     }
 
     private static Stream<Arguments> dateRangeTestCases() {
