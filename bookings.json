@@ -7,7 +7,7 @@
     "roomRate": "Last Minute"
   },
   {
-    "hotelId": "H11111111111",
+    "hotelId": "FILE_H1",
     "arrival": "20250712",
     "departure": "20250715",
     "roomType": "DLX",
@@ -22,15 +22,15 @@
   },
   {
     "hotelId": "H19",
-    "arrival": "20251209",
-    "departure": "20251221",
+    "arrival": "20250609",
+    "departure": "20250621",
     "roomType": "DLX",
     "roomRate": "Corporate"
   },
   {
     "hotelId": "H5",
-    "arrival": "20251117",
-    "departure": "20251122",
+    "arrival": "20250517",
+    "departure": "20250522",
     "roomType": "STD",
     "roomRate": "Premium"
   },
@@ -43,29 +43,29 @@
   },
   {
     "hotelId": "H18",
-    "arrival": "20250702",
-    "departure": "20250709",
+    "arrival": "20250202",
+    "departure": "20250209",
     "roomType": "SUITE",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H8",
-    "arrival": "20250714",
-    "departure": "20250717",
+    "arrival": "20250214",
+    "departure": "20250217",
     "roomType": "DLX",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H2",
-    "arrival": "20250825",
-    "departure": "20250826",
+    "arrival": "20250425",
+    "departure": "20250426",
     "roomType": "STD",
     "roomRate": "Corporate"
   },
   {
     "hotelId": "H1",
-    "arrival": "20250802",
-    "departure": "20250806",
+    "arrival": "20250402",
+    "departure": "20250406",
     "roomType": "DLX",
     "roomRate": "Early Bird"
   },
@@ -85,8 +85,8 @@
   },
   {
     "hotelId": "H12",
-    "arrival": "20250904",
-    "departure": "20250907",
+    "arrival": "20250104",
+    "departure": "20250107",
     "roomType": "DLX",
     "roomRate": "Premium"
   },
@@ -106,22 +106,22 @@
   },
   {
     "hotelId": "H4",
-    "arrival": "20251103",
-    "departure": "20251108",
+    "arrival": "20250503",
+    "departure": "20250508",
     "roomType": "SGL",
     "roomRate": "Last Minute"
   },
   {
     "hotelId": "H7",
-    "arrival": "20251014",
-    "departure": "20251028",
+    "arrival": "20250314",
+    "departure": "20250328",
     "roomType": "SGL",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H13",
-    "arrival": "20251101",
-    "departure": "20251107",
+    "arrival": "20250501",
+    "departure": "20250507",
     "roomType": "DLX",
     "roomRate": "Standard"
   },
@@ -134,8 +134,8 @@
   },
   {
     "hotelId": "H15",
-    "arrival": "20251123",
-    "departure": "20251131",
+    "arrival": "20250523",
+    "departure": "20250531",
     "roomType": "SUITE",
     "roomRate": "Standard"
   },
@@ -149,7 +149,7 @@
   {
     "hotelId": "H4",
     "arrival": "20251227",
-    "departure": "20250903",
+    "departure": "20250103",
     "roomType": "SGL",
     "roomRate": "Last Minute"
   },
@@ -162,22 +162,22 @@
   },
   {
     "hotelId": "H15",
-    "arrival": "20251109",
-    "departure": "20251121",
+    "arrival": "20250509",
+    "departure": "20250521",
     "roomType": "SUITE",
     "roomRate": "Premium"
   },
   {
     "hotelId": "H16",
-    "arrival": "20250914",
-    "departure": "20250919",
+    "arrival": "20250114",
+    "departure": "20250119",
     "roomType": "SGL",
     "roomRate": "Last Minute"
   },
   {
     "hotelId": "H17",
-    "arrival": "20250707",
-    "departure": "20250716",
+    "arrival": "20250207",
+    "departure": "20250216",
     "roomType": "DBL",
     "roomRate": "Early Bird"
   },
@@ -197,29 +197,29 @@
   },
   {
     "hotelId": "H4",
-    "arrival": "20250709",
-    "departure": "20250719",
+    "arrival": "20250209",
+    "departure": "20250219",
     "roomType": "DLX",
     "roomRate": "Last Minute"
   },
   {
     "hotelId": "H20",
-    "arrival": "20250817",
-    "departure": "20250819",
+    "arrival": "20250417",
+    "departure": "20250419",
     "roomType": "STD",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H19",
-    "arrival": "20251228",
+    "arrival": "20250628",
     "departure": "20250710",
     "roomType": "DLX",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H18",
-    "arrival": "20250801",
-    "departure": "20250812",
+    "arrival": "20250401",
+    "departure": "20250412",
     "roomType": "SGL",
     "roomRate": "Corporate"
   },
@@ -246,29 +246,29 @@
   },
   {
     "hotelId": "H12",
-    "arrival": "20250823",
-    "departure": "20251101",
+    "arrival": "20250423",
+    "departure": "20250501",
     "roomType": "DLX",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H16",
-    "arrival": "20250722",
-    "departure": "20251006",
+    "arrival": "20250222",
+    "departure": "20250306",
     "roomType": "SGL",
     "roomRate": "Last Minute"
   },
   {
     "hotelId": "H8",
-    "arrival": "20250917",
-    "departure": "20250931",
+    "arrival": "20250117",
+    "departure": "20250131",
     "roomType": "DLX",
     "roomRate": "Premium"
   },
   {
     "hotelId": "H11",
-    "arrival": "20251103",
-    "departure": "20251110",
+    "arrival": "20250503",
+    "departure": "20250510",
     "roomType": "DLX",
     "roomRate": "Last Minute"
   },
@@ -288,8 +288,8 @@
   },
   {
     "hotelId": "H5",
-    "arrival": "20250915",
-    "departure": "20250925",
+    "arrival": "20250115",
+    "departure": "20250125",
     "roomType": "STD",
     "roomRate": "Corporate"
   },
@@ -309,78 +309,78 @@
   },
   {
     "hotelId": "H1",
-    "arrival": "20251125",
-    "departure": "20251131",
+    "arrival": "20250525",
+    "departure": "20250531",
     "roomType": "DLX",
     "roomRate": "Corporate"
   },
   {
     "hotelId": "H10",
-    "arrival": "20251108",
-    "departure": "20251113",
+    "arrival": "20250508",
+    "departure": "20250513",
     "roomType": "SGL",
     "roomRate": "Premium"
   },
   {
     "hotelId": "H5",
-    "arrival": "20251221",
+    "arrival": "20250621",
     "departure": "20250704",
     "roomType": "STD",
     "roomRate": "Last Minute"
   },
   {
     "hotelId": "H18",
-    "arrival": "20251010",
-    "departure": "20251012",
+    "arrival": "20250310",
+    "departure": "20250312",
     "roomType": "SGL",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H6",
-    "arrival": "20250807",
-    "departure": "20250809",
+    "arrival": "20250407",
+    "departure": "20250409",
     "roomType": "DLX",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H12",
-    "arrival": "20250705",
-    "departure": "20250706",
+    "arrival": "20250205",
+    "departure": "20250206",
     "roomType": "DLX",
     "roomRate": "Corporate"
   },
   {
     "hotelId": "H5",
-    "arrival": "20251218",
-    "departure": "20251226",
+    "arrival": "20250618",
+    "departure": "20250626",
     "roomType": "STD",
     "roomRate": "Corporate"
   },
   {
     "hotelId": "H9",
-    "arrival": "20251206",
-    "departure": "20251208",
+    "arrival": "20250606",
+    "departure": "20250608",
     "roomType": "STD",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H14",
-    "arrival": "20251026",
-    "departure": "20251031",
+    "arrival": "20250326",
+    "departure": "20250331",
     "roomType": "SGL",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H17",
-    "arrival": "20250710",
-    "departure": "20250723",
+    "arrival": "20250210",
+    "departure": "20250223",
     "roomType": "SGL",
     "roomRate": "Premium"
   },
   {
     "hotelId": "H19",
-    "arrival": "20251019",
-    "departure": "20251024",
+    "arrival": "20250319",
+    "departure": "20250324",
     "roomType": "SGL",
     "roomRate": "Last Minute"
   },
@@ -393,15 +393,15 @@
   },
   {
     "hotelId": "H1",
-    "arrival": "20251227",
-    "departure": "20251228",
+    "arrival": "20250627",
+    "departure": "20250628",
     "roomType": "DLX",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H7",
-    "arrival": "20251008",
-    "departure": "20251014",
+    "arrival": "20250308",
+    "departure": "20250314",
     "roomType": "DLX",
     "roomRate": "Last Minute"
   },
@@ -421,15 +421,15 @@
   },
   {
     "hotelId": "H9",
-    "arrival": "20251223",
+    "arrival": "20250623",
     "departure": "20250706",
     "roomType": "STD",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H15",
-    "arrival": "20250926",
-    "departure": "20250928",
+    "arrival": "20250126",
+    "departure": "20250128",
     "roomType": "SUITE",
     "roomRate": "Standard"
   },
@@ -442,36 +442,36 @@
   },
   {
     "hotelId": "H1",
-    "arrival": "20251124",
-    "departure": "20251127",
+    "arrival": "20250524",
+    "departure": "20250527",
     "roomType": "DLX",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H20",
-    "arrival": "20251114",
-    "departure": "20251115",
+    "arrival": "20250514",
+    "departure": "20250515",
     "roomType": "DLX",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H4",
-    "arrival": "20250826",
-    "departure": "20251101",
+    "arrival": "20250426",
+    "departure": "20250501",
     "roomType": "DLX",
     "roomRate": "Premium"
   },
   {
     "hotelId": "H3",
-    "arrival": "20251206",
-    "departure": "20251209",
+    "arrival": "20250606",
+    "departure": "20250609",
     "roomType": "SUITE",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H13",
-    "arrival": "20250803",
-    "departure": "20250804",
+    "arrival": "20250403",
+    "departure": "20250404",
     "roomType": "DBL",
     "roomRate": "Corporate"
   },
@@ -484,8 +484,8 @@
   },
   {
     "hotelId": "H16",
-    "arrival": "20250815",
-    "departure": "20250825",
+    "arrival": "20250415",
+    "departure": "20250425",
     "roomType": "SGL",
     "roomRate": "Corporate"
   },
@@ -498,8 +498,8 @@
   },
   {
     "hotelId": "H13",
-    "arrival": "20251015",
-    "departure": "20251025",
+    "arrival": "20250315",
+    "departure": "20250325",
     "roomType": "DBL",
     "roomRate": "Last Minute"
   },
@@ -526,15 +526,15 @@
   },
   {
     "hotelId": "H4",
-    "arrival": "20251124",
-    "departure": "20251128",
+    "arrival": "20250524",
+    "departure": "20250528",
     "roomType": "DLX",
     "roomRate": "Standard"
   },
   {
     "hotelId": "H7",
-    "arrival": "20250903",
-    "departure": "20250907",
+    "arrival": "20250103",
+    "departure": "20250107",
     "roomType": "DLX",
     "roomRate": "Premium"
   },
@@ -554,15 +554,15 @@
   },
   {
     "hotelId": "H17",
-    "arrival": "20250811",
-    "departure": "20250822",
+    "arrival": "20250411",
+    "departure": "20250422",
     "roomType": "DBL",
     "roomRate": "Corporate"
   },
   {
     "hotelId": "H2",
-    "arrival": "20251226",
-    "departure": "20251227",
+    "arrival": "20250626",
+    "departure": "20250627",
     "roomType": "SUITE",
     "roomRate": "Corporate"
   },
@@ -575,15 +575,15 @@
   },
   {
     "hotelId": "H4",
-    "arrival": "20251110",
-    "departure": "20251122",
+    "arrival": "20250510",
+    "departure": "20250522",
     "roomType": "SGL",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H1",
-    "arrival": "20251122",
-    "departure": "20251124",
+    "arrival": "20250522",
+    "departure": "20250524",
     "roomType": "DLX",
     "roomRate": "Standard"
   },
@@ -610,8 +610,8 @@
   },
   {
     "hotelId": "H19",
-    "arrival": "20250811",
-    "departure": "20250820",
+    "arrival": "20250411",
+    "departure": "20250420",
     "roomType": "SGL",
     "roomRate": "Corporate"
   },
@@ -625,14 +625,14 @@
   {
     "hotelId": "H1",
     "arrival": "20251227",
-    "departure": "20250909",
+    "departure": "20250109",
     "roomType": "DLX",
     "roomRate": "Early Bird"
   },
   {
     "hotelId": "H17",
-    "arrival": "20250917",
-    "departure": "20250921",
+    "arrival": "20250117",
+    "departure": "20250121",
     "roomType": "SGL",
     "roomRate": "Standard"
   },
@@ -652,8 +652,8 @@
   },
   {
     "hotelId": "H4",
-    "arrival": "20250921",
-    "departure": "20250703",
+    "arrival": "20250121",
+    "departure": "20250203",
     "roomType": "SGL",
     "roomRate": "Premium"
   },

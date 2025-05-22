@@ -3,8 +3,9 @@ package org.example.repository.dataprovider;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.exception.DataLoadingException;
 import org.example.repository.DataProvider;
+import org.example.util.JsonFileLoader;
 
-import java.io.InputStream;
+import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,7 +15,6 @@ import java.util.function.Function;
 public class FileDataProvider<T> implements DataProvider<T> {
 
     private static final String INITIALIZATION_EXCEPTION = "Failed to initialize data provider";
-    private static final String FILE_NOT_FOUND_EXCEPTION = "File not found: ";
     private static final String DATA_LOAD_EXCEPTION = "Failed to load data from file: ";
     private final String filePath;
     private final ObjectMapper objectMapper;
@@ -57,11 +57,9 @@ public class FileDataProvider<T> implements DataProvider<T> {
     @Override
     public void refresh() throws DataLoadingException {
         try {
-            InputStream inputStream = getClass().getResourceAsStream(filePath);
-            if (inputStream == null) {
-                throw new DataLoadingException(FILE_NOT_FOUND_EXCEPTION + filePath);
-            }
-            T[] items = objectMapper.readValue(inputStream, arrayType);
+            byte[] fileData = JsonFileLoader.loadFile(filePath);
+            ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(fileData);
+            T[] items = objectMapper.readValue(byteArrayInputStream, arrayType);
             this.dataCache = Arrays.asList(items);
         } catch (Exception e) {
             throw new DataLoadingException(DATA_LOAD_EXCEPTION + filePath, e);
